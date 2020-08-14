@@ -12,9 +12,6 @@
   },
   "author": "GiaVy",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ththth0303/server-chat/issues"
-  },
   "homepage": "https://github.com/nguyentrangiavy/chat-server",
   "dependencies": {
     "ejs": "^2.5.7",
