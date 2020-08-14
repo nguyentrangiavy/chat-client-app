@@ -1,16 +1,16 @@
 import React from "react";
 import ReactDOM from "react-dom";
-// import App from "./input";
+import App from "./input";
 import "./App.css";
-import "./chatSelf"; //Chatself
+// import "./chatSelf"; //Chatself
 import "./index.css";
-// import registerServiceWorker from "./registerServiceWorker";
+import registerServiceWorker from "./registerServiceWorker";
 
-// ReactDOM.render(<App />, document.getElementById("root"));
-// registerServiceWorker();
+ReactDOM.render(<App />, document.getElementById("root"));
+registerServiceWorker();
 
 // ChatSelf;
-const demo = (
+const chatBox = (
   <div class="chatweb">
     <div class="chat_window">
       <div class="top_menu">
@@ -46,4 +46,4 @@ const demo = (
   </div>
 );
 
-ReactDOM.render(demo, document.getElementById("app"));
+ReactDOM.render(chatBox, document.getElementById("app"));
