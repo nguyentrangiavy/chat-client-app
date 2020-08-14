@@ -39,9 +39,3 @@ io.on('connection', function(socket) {
             io.sockets.emit('updateUesrList', userOnline);// gửi danh sách user dang online
         }
     })
-
-});
-
-app.get('/', (req, res) => {
-    res.send("Home page. Server running okay.");
-})
